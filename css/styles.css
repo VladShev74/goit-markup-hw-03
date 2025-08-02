@@ -92,9 +92,6 @@ img {
 .menu {
     display: flex;
     padding: 0;
-}
-
-.menu-item {
     padding: 24px 0;
 }
 
