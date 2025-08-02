@@ -92,7 +92,6 @@ img {
 .menu {
     display: flex;
     padding: 0;
-    padding: 24px 0;
 }
 
 .menu-item:not(:last-child) {
@@ -113,6 +112,7 @@ img {
 
 .menu-link {
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .contacts {
@@ -187,10 +187,11 @@ img {
     display: flex;
     width: 1128px;
     margin: 0 auto;
+    padding: 0;
 }
 
 .features-item {
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
     margin-right: 24px;
 }
 
@@ -326,14 +327,14 @@ img {
     background-color: #2E2F42;
     color: #ffffff;
     text-align: left;
-    /* padding: 100px 0; */
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 156px;
 }
 
 .footer-wrapper {
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
 }
 
 .logo-footer {
