@@ -190,7 +190,7 @@ img {
 }
 
 .features-item {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 3 * 24px) / 4);
     margin-right: 24px;
 }
 
@@ -326,13 +326,14 @@ img {
     background-color: #2E2F42;
     color: #ffffff;
     text-align: left;
-    padding: 100px 0;
+    /* padding: 100px 0; */
     padding-left: 156px;
 }
 
 .footer-wrapper {
     display: flex;
     flex-direction: column;
+    padding: 100px 0;
 }
 
 .logo-footer {
@@ -349,6 +350,7 @@ img {
 
 .logo-footer-span {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .description-footer {
