@@ -336,8 +336,11 @@ img {
     padding-left: 156px;
 }
 
-.logo-footer a {
+.footer-wrapper a {
     display: inline-block;
+}
+
+.logo-footer {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
